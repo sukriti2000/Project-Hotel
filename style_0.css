@@ -1,0 +1,34 @@
+.image, .image h3, .image h6, .image h1 {
+  color: black;
+  font-family: Goudy Old Style;
+  font-style: italic;
+}
+
+.image h1 {
+  text-align: center;
+  font-size: 100px;
+  padding-top: 15%;
+  text-decoration: underline;
+}
+
+.image h6 {
+  text-align: center;
+  font-size: 50px;
+  padding-left: 30%;
+}
+
+.image h3 {
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.image {
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+body .image h1::selection {
+  background-color: black;
+}
+
+/*# sourceMappingURL=style_0.css.map */

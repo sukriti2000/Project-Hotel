@@ -1,0 +1,37 @@
+$font-color:black;
+%img{
+   	color:$font-color;
+   	font-family:Goudy Old Style;
+    font-style:italic; 
+  }
+    .image h1{
+      @extend %img;
+      text-align: center;
+	  font-size: 100px;
+      padding-top: 15%;
+	  text-decoration: underline;
+      }
+    .image h6{
+       @extend %img;
+       text-align: center;
+	   font-size: 50px;
+	   padding-left: 30%;
+      }
+    .image h3{
+      @extend %img;
+      padding-left: 20px;
+      font-size: 30px;
+      }
+    .image{
+       @extend %img;
+       padding-left: 30px;
+	   font-size: 25px;
+	  }
+	  body{
+	    .image{
+	      h1::selection{
+	        background-color:$font-color;
+
+	      }
+	    }
+	  }
